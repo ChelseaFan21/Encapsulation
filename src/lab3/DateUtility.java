@@ -13,7 +13,7 @@ import java.util.Date;
  * @author bstoiber
  */
 public class DateUtility {
-    
+     
     public String getFormattedDate(Date orientationDate) {
         SimpleDateFormat sdf = new SimpleDateFormat("M/d/yyyy");
         return sdf.format(orientationDate);
